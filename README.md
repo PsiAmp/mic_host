@@ -17,3 +17,9 @@ For more detail on the project see links below:
   - `kernel.py`: Triton kernel and tests
   - `datasource.py`: Packet capture and bulk DAS abstraction for python
   - `cal_model.py`: Array calibration model
+
+## Build
+- install Maturin:
+``pip install maturin``
+- Install Microsoft [C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) (check `Desktop development with C++`)
+- Install Rust (specific version may be needed to build correctly) `nightly-2022-03-08` seems to work
